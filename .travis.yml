@@ -7,7 +7,7 @@ android:
     - extra
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
-    # - sys-img-x86-android-28
+    - sys-img-x86-android-28
   licenses:
     - 'android-sdk-preview-license-52d11cd2'
     - 'android-sdk-license-.+'
