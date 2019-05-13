@@ -7,14 +7,7 @@ android:
     - android-28
     - add-on
     - extra
-    # Specify at least one system image,
-    # if you need to run emulator(s) during your tests
     - sys-img-x86-android-28
-  licenses:
-    - 'android-sdk-preview-license-.+'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
-  # Emulator Management: Create, Start and Wait
 before_install:
   - chmod +x gradlew
   - mkdir "$ANDROID_HOME/licenses" || true
